@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Book Surfing</title>
+        <title>EUSI</title>
         <link rel="shortcut icon" href="img/sb3.jpg" />
 
         <meta name="description" content="">
@@ -27,7 +27,7 @@
         <![endif]-->
 
      <!-- Nav -->    
-    <div id="nav" class="navbar navbar " role="navigation">
+    <div id="nav" class="navbar navbar navbar-fixed-top" role="navigation">
       <div id="main-nav-container" class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -36,18 +36,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a id="logo-menu-link" class="navbar-brand" href="index.html"><img id="logo-menu" src="img/sb3.jpg" class="img-responsive"></a>
+          <a id="logo-menu-link" class="navbar-brand" href="index.html"><img id="logo-menu" src="img/itam.jpg" class="img-responsive"></a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav navbar-left">
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="eventos.html">Eventos</a></li>
-            <li><a href="contact.html">Contáctanos</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="amazon.html">Amazon</a></li>
+            <li><a href="linio.html">Linio</a></li>
+            <li><a href="#">Info</a></li>
           </ul>
-          <form class="navbar-form navbar-right" role="form">
-            <a href="signup.html" type="submit" class="btn btn-primary">Registrate</a>
-          </form>
         </div><!--/.navbar-collapse -->
       </div>
     </div><!-- /Nav -->
@@ -57,16 +54,133 @@
         <div class="row seccion" style="background-color:#fff;">
           <div class="col-sm-offset-2 col-sm-8">
             <h1 class="w300 center">¡Bienvenido!</h1>
-            <h3 class="w300 center">Déjanos tus datos y pronto te contactaremos.</h3>
+            <h3 class="w300 center">Porfavor ingresa a la siguiente página para iniciar la encuesta</h3>
+            <a href = "http://www.linio.com.mx"><h3 class="w300 center">Linio</h3></a>
 
             <form id="registration-form" role="form">
 
-              <div id="nombreFrm" class="form-group">
-                <label for="exampleInputEmail1">Nombre*</label>
-                <input type="text" class="form-control" id="nombreIn" placeholder="Nombre" minlength="2" required>
+              <div id="pregunta1" class="form-group">
+                <label for="exampleInputEmail1">1. Cual es el precio de un iphone 5S de 64 GB?</label>
+                <input type="text" class="form-control" id="pregunta1In"  minlength="2" required>
               </div>
 
-              <div id="apellidoFrm" class="form-group">
+              <div id="preg1" class="form-group">
+                <label for="exampleInputEmail1" style="width:100%">Cuanto trabajo te costo contestar esta pregunta?</label>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-nada1" type="radio" name="optionsRadios" id="optionsRadios1" value="Nada">
+                    Nada
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-medio1" type="radio" name="optionsRadios" id="optionsRadios1" value="Medio">
+                    Medio
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-mucho1" type="radio" name="optionsRadios" id="optionsRadios1" value="Mucho">
+                    Mucho
+                  </label>
+                </div>
+              </div>
+
+              <div id="pregunta2" class="form-group">
+                <label for="exampleInputEmail1">2. Cual es el precio de la suscripcion Premium y cuanto dura?</label>
+                <input type="text" class="form-control" id="pregunta2In"  minlength="2" required>
+              </div>
+
+              <div id="preg2" class="form-group">
+                <label for="exampleInputEmail1" style="width:100%">Cuanto trabajo te costo contestar esta pregunta?</label>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-nada2" type="radio" name="optionsRadios" id="optionsRadios2" value="Nada">
+                    Nada
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-medio2" type="radio" name="optionsRadios" id="optionsRadios2" value="Medio">
+                    Medio
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-mucho2" type="radio" name="optionsRadios" id="optionsRadios2" value="Mucho">
+                    Mucho
+                  </label>
+                </div>
+              </div>
+
+              <div id="pregunta3" class="form-group">
+                <label for="exampleInputEmail1">3. Cuanto tiempo tienes para devolver un producto?</label>
+                <input type="text" class="form-control" id="pregunta3In"  minlength="2" required>
+              </div>
+
+              <div id="preg3" class="form-group">
+                <label for="exampleInputEmail1" style="width:100%">Cuanto trabajo te costo contestar esta pregunta?</label>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-nada3" type="radio" name="optionsRadios" id="optionsRadios3" value="Nada">
+                    Nada
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-medio3" type="radio" name="optionsRadios" id="optionsRadios3" value="Medio">
+                    Medio
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-mucho3" type="radio" name="optionsRadios" id="optionsRadios3" value="Mucho">
+                    Mucho
+                  </label>
+                </div>
+              </div>
+
+              <div id="pregunta4" class="form-group">
+                <label for="exampleInputEmail1">4. Como se envian los productos?</label>
+                <input type="text" class="form-control" id="pregunta4In" placeholder="Nombre" minlength="2" required>
+              </div>
+
+              <div id="preg4" class="form-group">
+                <label for="exampleInputEmail1" style="width:100%">Cuanto trabajo te costo contestar esta pregunta?</label>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-nada4" type="radio" name="optionsRadios" id="optionsRadios4" value="Nada">
+                    Nada
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-medio4" type="radio" name="optionsRadios" id="optionsRadios4" value="Medio">
+                    Medio
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-mucho4" type="radio" name="optionsRadios" id="optionsRadios4" value="Mucho">
+                    Mucho
+                  </label>
+                </div>
+
+
+
+                <!--  <div id="pregunta5" class="form-group">
+                <label for="exampleInputEmail1"> En general que tan dificil fue utilizar el sitio?</label>
+                <input type="text" class="form-control" id="pregunta5In" placeholder="Nombre" minlength="2" required>
+              </div>
+
+              <div id="pregunta6" class="form-group">
+                <label for="exampleInputEmail1"> Que tan atractivo visualmente es el sitio?</label>
+                <input type="text" class="form-control" id="pregunta6In" placeholder="Nombre" minlength="2" required>
+              </div>
+              </div> -->
+
+
+             <!-- <div id="apellidoFrm" class="form-group">
                 <label for="exampleInputEmail1">Apellido*</label>
                 <input type="text" class="form-control" id="apellidoIn" placeholder="Apellido" minlength="2" required>
               </div>
@@ -88,29 +202,21 @@
                   ¿Tienes algún comentario?
                 </label>
                 <textarea id="comentariosIn" class="form-control fill" rows="5" style="width:100%"></textarea>
-              </div>
+              </div> -->
 
               <button id="submit-registration" class="btn btn-primary fill" onclick="validate()">Enviar</button>
 
             </form>
+
+
+            
 
           </div>
         </div>
       </div>
     </section>
 
-    <footer><!-- Footer -->
-      <div class="container">
-        <div class="p-40 p-btm40">
-          <div class="row">
-            <div class="col-sm-12">
-              <a href="index.html"><img id="logo-footer" src="img/sb2.jpg" class="img-responsive center"></a>
-              <h3 class="w300 center">Book Surfing</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer><!-- /Footer -->
+<!-- /Footer -->
 
         <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script> 
